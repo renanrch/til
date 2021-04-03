@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    padding: 0% 0%;
+    background-color: white;
+
+}
+
+@media screen and (min-width: 30rem) {
+    body {
+        background:chartreuse;
+    }
+}    
+
+@media screen and (max-width: 30.5rem) {
+    body {
+        background:rgb(25, 0, 255);
+    }
+}   
+
+/*  inicio header */
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.cabecalho {
+    height: 6.25rem;
+    background: rgb(255, 238, 0);
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a {
+   text-decoration: none;
+   color: black;
+   font-size: 1.5rem;
+   font-family: sans-serif;
+   letter-spacing: 0px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 0 1rem;
+
+}
+
+/* final header  */
+
+
+.feed {
+    display: grid;
+    grid-template-columns: repeat(1, 10fr) ;
+    grid-auto-rows: 350px;
+    grid-gap: 16px;
+    margin: 0px 0px 0px 0;
+    padding-top: 170px;
+    
+    
+
+
+
+}
+
+.card__category {
+    font-family: sans-serif;
+    line-height: 30px;
+    margin: 0;
+    font-size: 2rem;
+    color:white;
+
+
+}
+
+.time__saibamais {
+    line-height: 30px;
+    margin: 0;
+    font-size: 30px;
+ 
+    font-family: sans-serif;
+    margin: 10px 0 0 0;
+    color:white;
+    top: 100px;
+ 
+}
+
+.time__saibamais a {
+    text-decoration: none;
+    color: chartreuse;
+
+}
+
+a:time__saibamais, a:visited {
+	text-decoration: none
+	}
+
+
+.card__title {
+     font-size: 1.25rem;
+     line-height: 20px;
+     margin:0 0 0 0;
+     font-family: sans-serif;
+     color:white;
+
+}
+
+.card { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    transition: all , 0.08s ease;
+    height: 80vh;
+    width: 80vw;
+    border: 3px solid red;
+
+
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+
+.card:nth-child(1) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(10,10,10,0) 0%,
+        rgba(10,10,10,0) 50%,
+        rgba(10,10,10,0.7) 100%),url('images/mbappe.jpg');
+
+
+}
+
+
+
